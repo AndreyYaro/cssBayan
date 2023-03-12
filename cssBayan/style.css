@@ -37,13 +37,15 @@ body {
     cursor: pointer;
 }
 
-.item__title:hover {
-    background-color:rgba(255, 0, 0, 0.25);
-}
 
 .item__title:hover ~ .item__information{
     display: block;
 }
+
+.item__title:hover {
+    background-color:rgba(255, 0, 0, 0.25);
+}
+
 
 .item__title:hover .plus{
     transform: rotate(45deg);
