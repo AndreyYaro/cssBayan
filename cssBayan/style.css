@@ -25,6 +25,7 @@ body {
     border-bottom-color: red ;
 }
 
+
 .item__title{
     display: flex;
     flex-direction: row;
