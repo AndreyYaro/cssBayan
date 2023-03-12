@@ -63,6 +63,7 @@ body {
     overflow: hidden;
     transition: .3s;
     text-align: center;
+    transition-duration: .5s;
 }
 
 .item__checkbox:checked ~ .item__title{
@@ -118,6 +119,6 @@ body {
         font-size: 14px;
     }
     .main-container{
-        max-width: 60%;
+        max-width: 50%;
     }
 }
